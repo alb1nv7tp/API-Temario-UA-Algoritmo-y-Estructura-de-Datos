@@ -15,7 +15,7 @@ except:
 
 def validar_licencia_cc(texto: str) -> bool:
     texto_limpio = texto.lower()
-    patrones_validos = ["creative commons", "cc by", "cc0", "openly licensed"]
+    patrones_validos = ["creative commons", "cc by", "cc0", "openly licensed", "IPN", "ESCOM", "Instituto Politécnico Nacional", "Instituto Politecnico Nacional"]
 
     inicio_texto = texto_limpio[:2000]
     
